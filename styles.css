@@ -1,4 +1,17 @@
+* {
+    border: 1px solid red;
+}
+
 .jerry {
-    height: 150px;
-    width: auto;
+    height: auto;
+    width: 400px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.block-1, block-2, block-3, block-4 {
+    display: flex;
 }
