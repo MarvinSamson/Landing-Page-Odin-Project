@@ -12,6 +12,7 @@ body {
     flex-direction: column;
 }
 
-.block-1, block-2, block-3, block-4 {
+.block-1, .block-2, .block-3, .block-4 {
     display: flex;
+    margin: 0px 20px;
 }
