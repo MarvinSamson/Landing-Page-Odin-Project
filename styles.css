@@ -3,8 +3,7 @@
 }
 
 .jerry {
-    height: auto;
-    width: 400px;
+    max-width: 100%;
 }
 
 body {
@@ -14,5 +13,62 @@ body {
 
 .block-1, .block-2, .block-3, .block-4 {
     display: flex;
-    margin: 0px 160px;
+    margin: 0px 120px;
+}
+
+.block-1 {
+    flex-direction: column;
+}
+
+.header-links {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+h4, ul {
+    margin-top: 0px;
+}
+
+ul {
+    display: flex;
+    padding: 0px;
+    gap: 20px;
+    
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.web-awesome-pic {
+    display: flex;
+    gap: 20px;
+}
+
+.left-awesome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 0;
+}
+
+.jerry-container {
+    display: flex;
+    flex: 1 1 0;
+}
+
+.this-website-is-awesome {
+    display: flex;
+    margin: 0px;
+    flex-basis: auto;
+    width: 200px;
+}
+
+.left-awesome {
+    gap: 10px;
 }
